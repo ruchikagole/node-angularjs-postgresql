@@ -1,0 +1,117 @@
+/* CSS Document */
+
+.main{ 
+		width:auto;
+		height:100%;
+	 }
+	 .header{
+				    height:140px;
+				    background-color:#333333;
+			     }
+			.logo{ 
+			        padding-top:23px;
+					float:left;
+					-webkit-transition: width 0.2s, height 0.2s; /* For Safari 3.1 to 6.0 */
+    	  			transition: width 0.2s, height 0.2s;
+					transition-duration: 5s;
+		  }
+			.logo img:hover{
+							width: 380px;
+    	    				height: 90px;
+		  				} 
+			.sociallink{   
+							float:right;
+							margin-top:20px;
+						}
+			.sociallink img{    margin-top:20px;
+								border-radius:50%;
+								padding:1px; 
+							}
+			/*code for sociallinks to transform*/
+			
+							/*.sociallink img:hover{width:50px;}*/
+			.sociallink ul li img:hover{
+								transform:translateX(-5px);
+								
+						          }
+			.sociallink ul li{
+			 					display:inline;
+							  }
+	.nav{ 
+		   margin-top:2px;
+	
+		}
+		.nav ul{
+				background-color:#333366;
+				height:57px;
+				/*color:#FFFFFF;*/
+			/*	padding:5px;*/
+				/*margin-top:5px;*/
+			   }
+		.nav ul li{
+					display:inline;
+					/*margin-bottom:5px;*/
+				  }
+		.nav ul li a{
+						font-size:20px;
+						text-decoration:none;
+					}
+		   .nav ul li a:hover{
+					background-color:#6633FF;
+				   }
+				 .nav ul li.active{
+				  				background-color:#000000;
+				  				
+								text-align: center;
+								text-decoration: none;
+								display: inline-block;
+								}
+			a:link,a:visited{ 				
+								color:White;
+								padding: 14px 25px;
+								text-align: center;
+								text-decoration: none;
+								display: inline-block;
+							}
+			/*a:visited {   
+						 color: green;
+                      }*/
+
+		.gallary{
+					background-color:#333366;
+					margin-top:2px;
+				}
+		
+		.gallary .container { padding:10px;}
+		
+		.container1 a{color:#333366; 
+
+        }
+		.container1{      height:40px;
+					/*width:auto;*/
+					background-color:#FFFFFF;
+					color: #333366;
+					padding-left:10px;
+					padding-top:5px;
+					width:275px;
+					}
+					.container1 a{ 
+									font-size:20px;
+									padding:2px;
+								 }
+		
+		.footer {text-align:center;
+				background-color:#333333;
+				padding:5px;}
+				
+				.footer p{ color:#CCCCCC;}
+				.footer a{ color:#990099;}
+		
+}
+
+@media screen and (min-width: 100px) {
+    body {
+	width:auto;
+	height:auto
+    }/* CSS Document */
+
